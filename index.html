@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
     <title>Barbershop_v1</title>
 </head>
 <body>
 <header class="header">
+    <div class="container header-cont">
     <a href="#" class="link-logo link"><img src="/img/Logo.svg" alt="Лого"></a>
     <nav class="header-nav">
         <ul class="header-list">
@@ -19,11 +21,15 @@
             <li class="header-item"><a href="#" class="header-link link">Контакты</a></li>
         </ul>
     </nav>
+    <div class="header-connect">
     <a href="tel:+380441111111" class="header-link-tel link">+38 044 111 11 11</a>
     <button type="button" class="header-btn btn">онлайн-запись</button>
+</div>
+</div>
 </header>   
 <main>
 <section class="hero">
+    <div class="container hero-cont">
     <ul class="hero-list">
         <li class="hero-item">
             <a href="" class="hero-link link">Youtube</a>
@@ -32,12 +38,17 @@
             <a href="" class="hero-link link">Instagram</a>
         </li>
     </ul>
+    <div class="hero-right">
     <p lang="en" class="hero-pre-title pre">A hair salon for men in Kyiv</p>
     <h1 lang="en" class="hero-title">BarberShop</h1>
     <p class="hero-sap-text">Мы эксперты в модных мужских стрижках. 
         Работаем быстро, осторожно и со вкусом.</p>
+    </div>
+    </div>
 </section> 
+
 <section class="about">
+    <div class="container about-cont">
 <ul class="about-list">
     <li class="about-item">
         <img src="./img/img1.jpg" alt="барбер мажет шею"
@@ -50,6 +61,7 @@
         height="445">
     </li>
 </ul>    
+<div class="about-cont-two">
 <p class="about-pre pre">О НАС</p>
 <h2 class="about-title title">Лучший Барбершоп
     твоего города
@@ -60,8 +72,11 @@
         то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!
     </p>
     <button type="button" class="about-btn btn">онлайн-запись</button>
+</div>
+</div>
 </section>
 <section class="prices">
+    <div class="container">
     <p class="prices-pre-title pre">Проведи время в компании лучших мастеров</p>
     <h2 class="prices-title title">Услуги и цены</h2>
     <ul class="prices-list">
@@ -77,8 +92,10 @@
         <li class="prices-item"> <p class="prices-text text">Камуфлирование седины</p> <p class="prices-text text">от 200 грн.</p> </li>
     </ul>
     <button type="button" class="prices-btn btn">онлайн-запись</button>
+</div>
 </section>
 <section class="reasons">
+    <div class="container">
 <ul class="reasons-list">
     <li class="reasons-item">
     <span class="reasons-count">600</span>
@@ -100,8 +117,10 @@
 <p class="reasons-pre-title pre">старая традиционная школа</p>
 <h2 class="reasons-title title">Почему приходят именно к нам?</h2>
 <p class="reasons-after-text text">О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать. </p>
+</div>
 </section>
 <section class="masters">
+    <div class="container">
     <p class="masters-pre-title pre">для настоящих ценителей атмосферы</p>
     <h2 class="masters-title title">Наши мастера</h2>
     <ul class="masters-list">
@@ -122,10 +141,12 @@
                 <p lang="en" class="masters-work-text">Extreme Barber</p>
         </li>
     </ul>
+</div>
 </section>
 <section class="gallery">
+    <div class="container">
     <p class="gallery-pre-title pre">На латинском языке “барба” означает “борода”</p>
-    <h2 class="gallery-title title">Галерея</h2>
+    <h2 class="gallery-title title visually-hidden">Галерея</h2>
     <ul class="gallery-list">
         <li class="gallery-item"><img src="./img/Галерея1.jpg" alt="барбер делает свою роботу"
             width="270" height="360">
@@ -140,8 +161,10 @@
             width="270" height="360">
         </li>
     </ul>
+</div>
 </section>
 <section class="contacts">
+    <div class="container">
     <h2 class="contacts-title title">Контакты</h2>
     <address class="contacts-adress">
         <ul class="contacts-list">
@@ -159,14 +182,17 @@
     </address>
     <p class="contacts-pre-title pre">время работы</p>
     <p class="contacts-text">Ежедневно с 9:00 до 22:00</p>
+</div>
 </section>
 </main>
 <footer class="footer">
+    <div class="container">
     <p class="footer-copy">&copy; Copyright 2020</p>
     <ul class="footer-list">
         <li class="footer-item"><a href="" class="footer-link link">Instagram</a></li>
         <li class="footer-item"><a href="" class="footer-link link">Youtube</a></li>
     </ul>
+</div>
 </footer>
 </body>
 </html>
