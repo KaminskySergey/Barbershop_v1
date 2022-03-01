@@ -1,0 +1,8 @@
+@mixin pre ($mb:20px, $fw:600, $fs:11px, $lh:1.36px, $ls:0.1em){
+    margin-bottom: $mb;
+font-weight: $fw;
+font-size: $fs;
+line-height: $lh;
+letter-spacing: $ls;
+;
+}

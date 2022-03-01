@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap');
+@import './utills/veriables';
+@import './base/nulling';
+@import './utills/hidden';
+@import './base/common';
+@import './utills/mixin';
+
+@import './components/header';
+@import './components/hero';
+@import './components/about';
+@import './components/prices';
+@import './components/reasons';
+@import './components/masters';
+@import './components/gallery';
+@import './components/contacts';
+@import './components/footer';
+@import './components/modal';

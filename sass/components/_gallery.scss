@@ -1,0 +1,25 @@
+.gallery{
+    padding: 130px 0;
+}
+.gallery-pre-title{
+    color: var(--brand-black-title);
+    margin-bottom: 44px;
+    display: flex;
+    align-items: center;
+}
+.gallery-pre-title::before{
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: var(--brand-black-title);
+    margin-right: 20px;
+
+}
+.gallery-list{
+    display: flex;
+    margin-left: -30px;
+}
+.gallery-item{
+    width: calc(100% / 4 - 30px);
+    margin-left: 30px;
+}
